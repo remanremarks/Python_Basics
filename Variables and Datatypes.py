@@ -31,8 +31,19 @@ print(a>=b)
 print(a<=b)
 
 
-
-
-
+#Assignment Operators
+a=10        #10
+a+=10    #20  --> a=a+10
+print(a)
+a-=5     #15
+print(a)
+a*=2     #30
+print(a)
+a/=3     #10
+print(a)
+a%=10
+print(a)
+a**=10
+print(a)
 
 
