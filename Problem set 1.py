@@ -1,10 +1,16 @@
 # 1. Create five variables: one string, one integer, one float, one boolean, and one None value. Print all of them and then print the type of each variable.
-a1="Eman"
-a2=7
-a3=9.25
-a4=True
-a5=None
-#missing
+
+a1 = "Eman"
+a2 = 4
+a3 = 3.2
+a4 = True
+a5 = None
+
+print (type (a1)) 
+print (type (a2))
+print (type (a3))
+print (type (a4))
+print (type (a5))
 
 
 

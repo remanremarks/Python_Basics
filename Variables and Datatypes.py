@@ -1,8 +1,8 @@
-a5="Me"
-a1=2
-a2=3.75
-a3=None
-a4=True
+a5="Me"  #STR
+a1=2   #INT
+a2=3.75   #FLOAT
+a3=None   #NULL
+a4=True   #Bool
 
 print(a5,a1,a2,a3,a4)
 print(type(a1))
@@ -18,9 +18,9 @@ print("sum",a+b)
 print("difference",a-b)
 print("product",a*b)
 print("true quotient",a/b)
-print("floor quotient",a//b)
-print("remainder",a%b)
-print("exponent",a**b)
+print("floor quotient",a//b)  #ignores the decimal part of your quotient
+print("remainder",a%b)   #10/3  rem=1
+print("exponent",a**b)   #power
 
 # Relational Operators
 print(a>b)
@@ -47,3 +47,13 @@ a**=10
 print(a)
 
 
+#Input function
+age=input("Enter your age: ")
+print(age)
+
+name=input("Enter your name: ")
+print(name)
+
+a=int(input("Enter 1st number: "))
+b=int(input("Enter second number: "))
+print(a+b)
