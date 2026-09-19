@@ -57,14 +57,3 @@ print(name)
 a=int(input("Enter 1st number: "))
 b=int(input("Enter second number: "))
 print(a+b)
-
-#Write a program which allows u to sit in exam if your attendance is above 75
-
-student_attendence = int("Enter Student Attendence: ")
-if (student_attendence>= 75):
-    print ("Permission To Sit In The Exam: Provided!")
-
-elif (student_attendence>75):
-    print("Permission To Sit In Exam: Not Provided! ")
- 
-   
