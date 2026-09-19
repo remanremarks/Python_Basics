@@ -34,3 +34,11 @@ print(name[3:])
 print(name[:7])
 print(name[-4:])
 print(name[:-4])
+
+#String Functions
+str4="my name is Don"
+print(str4.endswith("Don"))
+print(str4.capitalize())
+print(str4.replace("Don","Comrade"))
+print(str4.find("#"))
+print(str4.count("n"))

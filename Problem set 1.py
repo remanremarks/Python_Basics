@@ -1,12 +1,12 @@
 # 1. Create five variables: one string, one integer, one float, one boolean, and one None value. Print all of them and then print the type of each variable.
 
-a1 = "Eman"
-a2 = 4
-a3 = 3.2
-a4 = True
+a1 = "Ali"
+a2 = 7
+a3 = 9.8
+a4 = False
 a5 = None
 
-print (type (a1)) 
+print (a1) 
 print (type (a2))
 print (type (a3))
 print (type (a4))
